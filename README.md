@@ -26,6 +26,8 @@ DISPLAY
 
 Each stage has a separate responsibility.
 
+<img src="pics_kumakun/meme1.jpg" width=600>
+
 **Detection** asks:
 
 > "What does this input look like?"
@@ -361,6 +363,9 @@ I also used small classes where an object naturally represented information that
 
 I deliberately did not turn the entire project into an object-oriented system simply because I had learned OOP. I used classes where they made the design clearer and kept the rest of the program procedural where that was more appropriate.
 
+<img src="pics_kumakun/meme2.jpg" width=400>
+
+
 ---
 
 ## Project Files
@@ -481,6 +486,8 @@ The test suite is contained in `test_project.py`.
 
 ## What I Learned
 
+<img src="pics_kumakun/meme4.png" width=600>
+
 Kumakun became a way of combining several concepts I had learned throughout my 60-day python venture instead of treating them as isolated Python features.
 
 Some of the most important concepts I used were:
@@ -539,6 +546,8 @@ PARSE
   ↓
 DISPLAY
 ```
+
+<img src="pics_kumakun/meme3.jpg" width=400>
 
 Kumakun started as an idea for combining the things I had learned throughout my 60-day python venture.
 
