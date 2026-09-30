@@ -4,7 +4,7 @@
 
 Kumakun is a command-line utility written in Python that accepts different kinds of input, detects what the input appears to represent, validates it using stricter rules, extracts useful information from it, and presents the result in a structured format.
 
-I built Kumakun as my final project for my 60-day python venture. I wanted to make somehing which I couldnt hv made on my own on day-1. The project grew from my interest in regular expressions, parsing, command-line programs, and the question of how a program can determine what an arbitrary piece of input represents.
+I built Kumakun as my final project for my 60-day python venture. I wanted to make something which I could not have made on my own on day-1. The project grew from my interest in regular expressions, parsing, command-line programs, and the question of how a program can determine what an arbitrary piece of input represents.
 
 Rather than building several unrelated features, I decided to focus on one problem: **understanding input**.
 
@@ -565,7 +565,7 @@ It ended up becoming something more useful to me: a project where I could practi
 
 ## Future Development
 
-Kumakun is intentionally a focused first version (which took me three days to make n document T^T).
+Kumakun is intentionally a focused first version (which took me three days to make and document T^T).
 
 I would like to continue developing it independently afterwards by adding a separate analysis layer:
 
