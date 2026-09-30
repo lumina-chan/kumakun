@@ -85,6 +85,8 @@ can be broken down into its local part, domain, domain labels, and TLD.
 
 The validator also distinguishes between inputs that merely contain an `@` and inputs that satisfy the project's email validation rules. For example, an address-like input without a valid domain structure is rejected.
 
+<img src="pics_kumakun/email.png" width=600>
+
 ---
 
 ### IPv4
@@ -119,6 +121,8 @@ hello.1.2.3
 ```
 
 The validator therefore does more than simply count four groups separated by periods.
+
+<img src="pics_kumakun/IPv4.png" width=600>
 
 ---
 
@@ -177,6 +181,8 @@ abc:20
 ```
 
 This was one of the areas where separating detection from validation became especially useful. A value can look like a time without actually representing a valid time.
+
+<img src="pics_kumakun/Time.png" width=600>
 
 ---
 
@@ -237,6 +243,8 @@ mailto:user@example.com
 ```
 
 These cases demonstrate why simply using `urlsplit()` is not enough to decide whether a URL should be considered valid.
+
+<img src="pics_kumakun/URL.png" width=600>
 
 ---
 
@@ -486,7 +494,7 @@ The test suite is contained in `test_project.py`.
 
 ## What I Learned
 
-<img src="pics_kumakun/meme4.png" width=600>
+<img src="pics_kumakun/meme4.png" width=400>
 
 Kumakun became a way of combining several concepts I had learned throughout my 60-day python venture instead of treating them as isolated Python features.
 
